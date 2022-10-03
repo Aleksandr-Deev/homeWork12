@@ -5,8 +5,8 @@ public class Main {
         Author alexanderPushkin = new Author("Alexander", "Pushkin");
         Author sergeyYesenin = new Author("Sergey", "Yesenin");
 
-        Book warAndPeace = new Book(1863, alexanderPushkin);
-        Book rowanFire = new Book(1924, sergeyYesenin);
+        Book warAndPeace = new Book("warAndPeace", alexanderPushkin, 1863);
+        Book rowanFire = new Book("rowanFire", sergeyYesenin, 1924);
 
         rowanFire.setYearOfPublication(1968);
     }
